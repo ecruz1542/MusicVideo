@@ -97,12 +97,10 @@
 		645E66551CE601BC00FD3A23 /* MusicVideo */ = {
 			isa = PBXGroup;
 			children = (
-				645E66561CE601BC00FD3A23 /* AppDelegate.swift */,
-				645E66581CE601BC00FD3A23 /* ViewController.swift */,
-				645E665A1CE601BC00FD3A23 /* Main.storyboard */,
-				645E665D1CE601BC00FD3A23 /* Assets.xcassets */,
-				645E665F1CE601BC00FD3A23 /* LaunchScreen.storyboard */,
-				645E66621CE601BC00FD3A23 /* Info.plist */,
+				645E66871CE6045F00FD3A23 /* Supporting Files */,
+				645E66841CE6041B00FD3A23 /* Model */,
+				645E66851CE6043100FD3A23 /* Controller */,
+				645E66861CE6044200FD3A23 /* View */,
 			);
 			path = MusicVideo;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				645E66781CE601BC00FD3A23 /* Info.plist */,
 			);
 			path = MusicVideoUITests;
+			sourceTree = "<group>";
+		};
+		645E66841CE6041B00FD3A23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		645E66851CE6043100FD3A23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				645E66581CE601BC00FD3A23 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		645E66861CE6044200FD3A23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				645E665A1CE601BC00FD3A23 /* Main.storyboard */,
+				645E665F1CE601BC00FD3A23 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		645E66871CE6045F00FD3A23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				645E66561CE601BC00FD3A23 /* AppDelegate.swift */,
+				645E665D1CE601BC00FD3A23 /* Assets.xcassets */,
+				645E66621CE601BC00FD3A23 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MusicVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.claystreelabs.MusicVideo;
@@ -413,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MusicVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.claystreelabs.MusicVideo;
